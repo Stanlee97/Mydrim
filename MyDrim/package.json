@@ -1,0 +1,58 @@
+{
+  "name": "mydrim-gallery",
+  "version": "1.0.0",
+  "description": "MyDrim Gallery - African Art Gallery Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "build": "echo 'Build scripts can be added here'",
+    "test": "echo 'Test scripts can be added here'"
+  },
+  "keywords": [
+    "gallery",
+    "art",
+    "african-art",
+    "artworks",
+    "exhibitions"
+  ],
+  "author": "MyDrim Gallery",
+  "license": "All Rights Reserved",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/org/mydrim-gallery.git"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "maintained node versions"
+  ],
+  "notes": {
+    "frontend-libraries": [
+      "Bootstrap 4 (https://getbootstrap.com/)",
+      "jQuery 2.2.4 (https://jquery.com/)",
+      "Font Awesome (https://fontawesome.com/)",
+      "Owl Carousel (https://owlcarousel2.github.io/OwlCarousel2/)",
+      "Animate.css (https://animate.style/)",
+      "Magnific Popup (https://dimsemenov.com/plugins/magnific-popup/)",
+      "Nice Select (https://github.com/hernansartorio/jquery-nice-select)",
+      "Superfish Menu (https://www.joelbirch.com/superfish/)",
+      "Parallax Effect (https://repository.getgrav.org/)",
+      "Justified Gallery (https://miromannino.github.io/Justified-Gallery/)",
+      "Slick Carousel (https://kenwheeler.github.io/slick/)"
+    ],
+    "google-services": [
+      "Google Fonts (https://fonts.google.com/)",
+      "Google Maps API (requires API key - see .env)"
+    ]
+  }
+}
