@@ -56,7 +56,7 @@ Edit `data/artists.json` and add a new artist object:
       "slug": "new-artist-name",
       "name": "NEW ARTIST NAME",
       "born": "b. 1960",
-      "image": "img/Artists/New Artist/photo.jpg",
+      "image": "img/Artists/New Artist/photo.webp",
       "title": "NEW ARTIST NAME",
       "bio": "Artist biography here..."
     }
@@ -71,7 +71,7 @@ Edit `data/artists.json` and add a new artist object:
 2. Upload a portrait image of the artist
 3. Reference it in the JSON:
    ```
-   "image": "img/Artists/Artist Name/photo.jpg"
+   "image": "img/Artists/Artist Name/photo.webp"
    ```
 
 ### Step 3: Done!
@@ -90,7 +90,7 @@ Each artist object should contain:
 | `slug` | string | "abiodun-olaku" | Yes |
 | `name` | string | "ABIODUN OLAKU" | Yes |
 | `born` | string | "b. 1958" | No |
-| `image` | string | "img/Artists/.../photo.jpg" | Yes |
+| `image` | string | "img/Artists/.../photo.webp" | Yes |
 | `title` | string | "ABIODUN OLAKU" | Yes |
 | `bio` | string | "Long biography text..." | Yes |
 
@@ -109,7 +109,7 @@ Each artist object should contain:
   "slug": "bruce-onobrakpeya",
   "name": "BRUCE ONOBRAKPEYA",
   "born": "PhD MFR b. 1932",
-  "image": "img/Artists/Bruce Onobrakpeya/Bruce Onobrakpeya.jpg",
+  "image": "img/Artists/Bruce Onobrakpeya/Bruce Onobrakpeya.webp",
   "title": "BRUCE ONOBRAKPEYA PhD",
   "bio": "Bruce Onobrakpeya is a legendary Nigerian Master Artist...\n\nThe description continues..."
 }
@@ -207,7 +207,7 @@ For now, the query parameter approach works well and is easily indexed by search
 - Example: `artist.html?id=typo` won't work if no artist has `"id": "typo"`
 
 ### Image Not Loading
-- Verify the image path exists: `img/Artists/Artist Name/photo.jpg`
+- Verify the image path exists: `img/Artists/Artist Name/photo.webp`
 - Check file name capitalization (case-sensitive on Linux servers)
 - Use relative paths, not absolute
 
@@ -256,3 +256,5 @@ The new artist system is **simpler, scalable, and maintainable**. Adding artists
 
 **Last Updated**: April 2025  
 **System Version**: 1.0
+
+

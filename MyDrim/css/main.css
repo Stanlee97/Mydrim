@@ -1561,7 +1561,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check\.webp) no-repeat center center/cover;
   border: none;
 }
 
@@ -1599,7 +1599,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check\.webp) no-repeat center center/cover;
   border: none;
 }
 
@@ -1642,7 +1642,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check\.webp) no-repeat center center/cover;
   border: none;
 }
 
@@ -1680,7 +1680,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio\.webp) no-repeat center center/cover;
   border: none;
 }
 
@@ -1718,7 +1718,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio\.webp) no-repeat center center/cover;
   border: none;
 }
 
@@ -1761,7 +1761,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio\.webp) no-repeat center center/cover;
   border: none;
 }
 
@@ -2298,12 +2298,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(/MyDrim/img/mydrim200.jpg) center;
+  background: url(/MyDrim/img/mydrim200.webp) center;
   background-size: cover;
 }
 
 .banner-area-frames {
-  background: url(/MyDrim/img/frames/img/frame_mydrim\ 016.jpg) center;
+  background: url(/MyDrim/img/frames/img/frame_mydrim\ 016.webp) center;
   background-size: cover;
 }
 
@@ -3174,7 +3174,7 @@ body.mobile-nav-active #mobile-nav-toggle {
                Start Blog Home  Page style
 ################
 .blog-banner-area {
-  background: url(../img/elements/blog/blog-banner.jpg) center;
+  background: url(../img/elements/blog/blog-banner.webp) center;
   background-size: cover;
 }
 
@@ -3645,3 +3645,5 @@ height: 100vh;
                End Blog Details  Page style
 ################
 */
+
+
