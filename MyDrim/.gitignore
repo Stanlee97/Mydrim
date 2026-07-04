@@ -20,8 +20,6 @@ yarn-error.log
 # Build and distribution
 dist/
 build/
-*.min.js
-*.min.css
 
 # Logs
 logs/
