@@ -2087,10 +2087,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
-  position: fixed;
-  right: 15px;
-  z-index: 999;
-  top: 50px;
   border: 0;
   background: none;
   font-size: 24px;
@@ -2098,6 +2094,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.4s;
   outline: none;
   cursor: pointer;
+  padding: 4px 8px;
+  z-index: 999;
 }
 
 #mobile-nav-toggle i {
@@ -2107,7 +2105,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 960px) {
   #mobile-nav-toggle {
-    display: inline;
+    display: flex;
+    align-items: center;
   }
   #nav-menu-container {
     display: none;
@@ -2298,12 +2297,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(/MyDrim/img/mydrim200.webp) center;
+  background: url('../img/mydrim200.webp') center;
   background-size: cover;
 }
 
 .banner-area-frames {
-  background: url(/MyDrim/img/frames/img/frame_mydrim\ 016.webp) center;
+  background: url('../img/frames/img/frame_mydrim 016.webp') center;
   background-size: cover;
 }
 
