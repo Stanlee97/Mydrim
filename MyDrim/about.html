@@ -259,7 +259,21 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
-		<script>window.mapInitCallback = function() { console.log('Google Maps API loaded successfully'); };  </script>
+		<script>
+			window.mapInitCallback = function() {
+				var location = { lat: 6.4494, lng: 3.4309 };
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 16,
+					center: location,
+					styles: [{ featureType: 'poi', stylers: [{ visibility: 'simplified' }] }]
+				});
+				new google.maps.Marker({
+					position: location,
+					map: map,
+					title: 'Mydrim Gallery – 74B Norman Williams Street, Ikoyi, Lagos'
+				});
+			};
+		</script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA&callback=mapInitCallback"></script>
   			<script src="js/easing.min.js"></script>			
 			<script src="js/hoverIntent.js"></script>
